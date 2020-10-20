@@ -1,0 +1,25 @@
+#variables-showing,
+#functions-showing,
+#methods-showing,
+#variable-naming-conventions-showing,
+#operations-showing,
+#javascript-showing {
+  display: none;
+}
+
+.clickable-javascript:hover,
+.clickable-variables:hover,
+.clickable-methods:hover,
+.clickable-variable-naming-conventions:hover,
+.clickable-operators:hover,
+.clickable-functions:hover {
+  background-color: rgb(151, 206, 223);
+}
+
+/* 
+Test using wild card 
+https://www.geeksforgeeks.org/wildcard-selectors-and-in-css-for-classes/
+*/
+/* [class*="clickable"] {
+  text-decoration: underline;
+} */
